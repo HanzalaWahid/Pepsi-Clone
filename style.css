@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(./Sofia\ Pro\ Regular\ Italic.ttf);
+}
+
+@font-face {
+    font-family: "Harry Obese";
+    src: url(./Harry\Obese.otf);
+}
+body, ul {
+    font-family: "Harry Obese", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+
+header {
+    background-color: #0025ff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffcc00;
+}
+
+.buy-button button {
+    background-color: #0048BA;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 1.8em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buy-button button:hover {
+    background-color: #0025ff;
+}
+.animation, .animation2 {
+    width: 100%; 
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.animation video{
+    width: 1265px;
+}
+.about_pepsi {
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding:  0;
+}
+
+.headings h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.headings h3 {
+    color: #FFFFFF;
+    font-size: 36px;
+}
+.follow-button {
+    background-color: #0025ff;
+    height: 100px; 
+    width: 220px; 
+    line-height: 23px;
+    color: #fff;
+    font-size: 23px;
+    font-family: "Sofia Pro";
+    border: none;
+    padding: 13px 23px;
+    border-radius: 0; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+   
+}
+.banner img {
+    width: 1200px;
+    background-color: #ffcc00;
+}
+
+.pepsi-heading {
+    background-color: #000000;
+    text-align: center; 
+}
+
+.pepsi-heading h2.chance,
+.pepsi-heading h3.Experience,
+.pepsi-heading h3.Diner {
+    color: #FFFFFF;
+    font-family: "Sofia Pro";
+    margin: 0; 
+}
+
+.pepsi-heading h2.chance {
+    font-size: 32px; 
+    
+}
+
+.pepsi-heading h3.Experience {
+    font-size: 20px; 
+    color: #0025ff;
+}
+
+.pepsi-heading h3.Diner {
+    font-size: 50px;  
+}
+
+.pepsi-heading h3.Diner span {
+    color: #0025ff;
+    margin: 0 10px; 
+}
+.banner2{
+    width: 100%;
+    height: auto;
+
+}
+
+.banner2 img {
+    width: 1200px;
+    background-color: #ffcc00;
+}
+.para{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Sofia Pro";
+    width: 100%;
+    height: 116px;
+    
+}
+.para p {
+    width: 840px;
+    margin: 0 auto;
+    padding:  10px;
+}
+
+.container{
+    width: 100%;
+    background-color: #0025ff;
+    position: relative;
+}
+
+.container img{
+    width: 694px;
+    height: 534px;
+}
+
+.tag{
+   
+    width: 422px;
+    height: 282px;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    padding-top: 20px;
+}
+.tag img{
+    width: 410px;
+    height: 280px;
+}
+
+.tag-button {
+    text-align: center; 
+    margin-top: 10px;
+    margin: 20px 0px 25px;
+    padding: 8px 29px;
+
+}
+
+.tag-button button {
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.5em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+}
+.tag-p{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    top: 1;
+    padding-top: 20px;
+}
+
+.tag p {
+    display: inline-block;
+    font-size: 11.2px;
+    padding: 0.5em 1.85em;
+    font-family: "Sofia Pro";
+    font-weight: 400;
+    color: #000000;
+}
+
+.social {
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    
+}
+
+.social > h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-family: "Harry Obese";
+    color: #0025ff;
+}
+
+.social-img{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.social-1{
+    width: 156px;
+    height: 156px;
+    margin: 0 -10px;
+    padding: 10px;
+}
+.social-icon {
+    background-color: #ffcc00;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
